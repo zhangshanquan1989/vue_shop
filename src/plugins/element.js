@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { Button, Form, FormItem, Input ,Message, Container, Header, Aside, 
 Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, 
-Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox } from 'element-ui'
+Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Select, Option } from 'element-ui'
 
 
 Vue.use(Button)
@@ -26,6 +26,10 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
 
 // 下面的使用 与上面的不同，需要全局挂在到Vue原型上
 Vue.prototype.$message = Message
