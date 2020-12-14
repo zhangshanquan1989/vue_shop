@@ -9,3 +9,8 @@ html,body,#app{
 	margin-bottom: 15px ;
 	font-size: 12px;
 }
+
+.el-steps{
+	margin:0.9375rem 0;
+	
+}
